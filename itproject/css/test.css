@@ -1,0 +1,53 @@
+.pos1
+{
+    position: relative;
+    top: 1000px;
+}
+div.space{
+    background-color: black;
+    height: 47px;
+    }
+    div.footer{
+        background-color: #2a2b2f;
+        height: 400px;
+        color: white;
+    }
+    ul.footer{
+        list-style: none;
+        float: left;
+        width: 25%;
+        line-height: 65px;
+        font-family: sans-serif;
+    }
+    li.footer{
+        font-size: 20px;
+    }
+    ul.footer2{
+        margin-top :20px;
+        list-style: none;
+        float: right;
+        width: 25%;
+        line-height: 50px;
+        font-family: sans-serif;
+    }
+    
+    li.footer2{
+        font-size: 20px;
+     }
+    ul.space{
+        margin: 0;
+        list-style: none;
+        width: 50%;
+        float: left;
+        display: flex;
+    }
+    img.space{
+        width: 45px;
+        height: 40px;
+    }
+    li.space{
+        width: 75px;
+       position: relative;
+        left: 475px;
+        top: 4px;
+    }
