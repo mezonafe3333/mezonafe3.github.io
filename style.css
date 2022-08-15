@@ -1,0 +1,80 @@
+*
+{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body
+{
+background-color: hsl(185, 75%, 39%);
+background-image: url('images/bg-pattern-bottom.svg');
+background-repeat: no-repeat;
+background-position:125% -180%;
+font-family: sans-serif;
+font-weight: 100;
+}
+/* header
+{
+    background-image: url('images/bg-pattern-top.svg');
+    background-repeat: no-repeat;
+    background-position:-45% 40%;
+} */
+.box
+{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    flex-direction: column;
+    background-color: aliceblue;
+    border-radius: 30px;
+    width: fit-content;
+    margin: auto;
+    margin-top: 12%;
+    gap: 2rem;
+}
+.images
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+.images :nth-of-type(1){
+    width: 450px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
+}
+.images :nth-of-type(2)
+{
+    border-radius: 50px;
+    position: absolute;
+    top:70%;
+    border:5px white solid ;
+}
+.text
+{
+    padding: 2rem 0rem;
+    line-height: 2.5rem;
+}
+.numbers ul
+{
+   list-style: none; 
+   display: flex;
+   justify-content: space-around;
+   gap: 50px;
+   font-size: 15px;
+   border-top: 1px hsl(180, 3%, 77%) solid;
+   padding: 1.5rem 2.5rem;
+}
+.numbers ul li p 
+{
+    color:hsl(180, 2%, 60%) ;
+    padding-top:15%;
+    padding-left: 6%;
+    font-size:15px ;
+    letter-spacing:3px ;
+}
+.text span,h3{
+    color: hsl(180, 2%, 60%);
+}
